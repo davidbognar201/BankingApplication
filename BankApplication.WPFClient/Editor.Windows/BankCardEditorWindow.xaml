@@ -1,0 +1,60 @@
+﻿<Window x:Class="BankApplication.WPFClient.BankCardEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankApplication.WPFClient.VMs"
+        mc:Ignorable="d"
+        Title="Bank Card Database" Height="550" Width="800">
+    <Window.DataContext>
+        <local:BankCardViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Background="LightGreen"
+               FontSize="23" 
+               FontFamily="Corbel"
+               Content="Manage Bank Card Database" 
+               FontWeight="Bold" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center"/>
+        <Label Grid.Row="2" Background="LightGreen"/>
+
+        <Grid Grid.Row="1" x:Name="teszt">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding BankCardCollection}" SelectedItem="{Binding SelectedBankCard}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Label Content="{Binding CardNumber}"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <StackPanel Grid.Column="1">
+                <Label Content="Card Number:" Background="DarkGray" FontWeight="Bold"/>
+                <TextBox Text="{Binding SelectedBankCard.CardNumber}" Padding="5"/>
+
+                <Label Content="Type of Card:" Background="DarkGray" FontWeight="Bold"/>
+                <ComboBox  Padding="5"
+                           ItemsSource="{Binding Path=CardTypes}"
+                           SelectedItem="{Binding Path=SelectedBankCard.Type}"
+                           IsSynchronizedWithCurrentItem="True"/>
+
+                <Label Content="Card CVC Code:" Background="DarkGray" FontWeight="Bold"/>
+                <TextBox Text="{Binding SelectedBankCard.CVCCode}" Padding="5"/>
+
+                <Button Content="Create New Bank Card" Command="{Binding CreateBankCardCommand}" Padding="5" Margin="5,25,5,5"/>
+                <Button Content="Delete Selected Bank Card" Command="{Binding RemoveBankCardCommand}" Padding="5" Margin="5"/>
+                <Button Content="Update Selected Bank Card" Command="{Binding UpdateBankCardCommand}" Padding="5" Margin="5,5,5,25"/>
+                <Button Content="Back To Main Menu" Click="Button_Click" Padding="5" Margin="5"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

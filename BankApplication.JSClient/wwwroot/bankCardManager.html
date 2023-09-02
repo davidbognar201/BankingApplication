@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel=" stylesheet" href="style.css" />
+    <title>Manage Bank Card Database</title>
+</head>
+<body>
+    <h1>Bank Card Catalog</h1>
+
+    <div id="bankCardCreatorDiv">
+        <label>Card Number</label>
+        <input type="text" id="cardNum" />
+
+        <label>Card Type</label>
+        <input type="text" id="cardType" />
+
+        <label>Card CVC Code</label>
+        <input type="text" id="cardCvc" />
+
+        <button type="button" onclick="createBankCard()">Create Bank Card</button>
+    </div>
+
+    <div id="bankCardUpdateDiv">
+        <label>Card Number</label>
+        <input type="text" id="cardNumToUpdate" />
+
+        <label>Card Type</label>
+        <input type="text" id="cardTypeToUpdate" />
+
+        <label>Card CVC Code</label>
+        <input type="text" id="cardCvcToUpdate" />
+
+        <button type="button" onclick="updateBankCard()">Update Bank Card</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bank Card ID</th>
+                <th>Card Number</th>
+                <th>Card Type</th>
+                <th>Card CVC Code</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="bankCardTable">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="bankCardManagerScript.js"></script>
+</body>
+</html>

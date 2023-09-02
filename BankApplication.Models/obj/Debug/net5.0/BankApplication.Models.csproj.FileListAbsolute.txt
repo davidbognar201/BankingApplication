@@ -1,0 +1,12 @@
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\bin\Debug\net5.0\BankApplication.Models.deps.json
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\bin\Debug\net5.0\BankApplication.Models.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\bin\Debug\net5.0\BankApplication.Models.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.csproj.AssemblyReference.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.AssemblyInfoInputs.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.AssemblyInfo.cs
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.csproj.CoreCompileInputs.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\refint\BankApplication.Models.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\BankApplication.Models.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Models\obj\Debug\net5.0\ref\BankApplication.Models.dll

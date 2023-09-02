@@ -1,0 +1,52 @@
+﻿table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th{
+    background-color: lightgreen;
+}
+
+#customerCreatorDiv,
+#bankCardCreatorDiv,
+#currentAccountCreatorDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#customerCreatorDiv label, button, input,
+#customerUpdateDiv label, button, input,
+#currentAccountUpdateDiv label, button, input {
+    margin: 5px;
+    padding: 5px;
+}
+
+    #customerCreatorDiv label,
+    #customerUpdateDiv label,
+    #bankCardCreatorDiv label,
+    #bankCardUpdateDiv label,
+    #currentAccountCreatorDiv label,
+    #currentAccountUpdateDiv label {
+        font-weight: bold;
+    }
+
+#customerUpdateDiv,
+#bankCardUpdateDiv,
+#currentAccountUpdateDiv {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+table button{
+    padding: 2px;
+}

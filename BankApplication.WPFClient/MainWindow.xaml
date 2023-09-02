@@ -1,0 +1,39 @@
+﻿<Window x:Class="BankApplication.WPFClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankApplication.WPFClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Background="LightGreen"
+               FontSize="23" 
+               FontFamily="Corbel"
+               Content="Banking CRUD Application" 
+               FontWeight="Bold" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center"/>
+        <Label Grid.Row="2" Background="LightGreen"/>
+
+        <Grid Grid.Row="1" x:Name="teszt">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="1" Grid.Column="1" Margin="15">
+                <Button x:Name="custButton" Content="Manage Customer Data" Padding="10" Margin="10" Click="Button_Click"/>
+                <Button x:Name="caButton" Content="Manage Current Account Data" Padding="10" Margin="10" Click="Button_Click"/>
+                <Button x:Name="cardButton" Content="Manage Bank Card Data" Padding="10" Margin="10" Click="Button_Click"/>
+                <Button x:Name="noncrudButton" Content="Manage Non-Crud Data" Padding="10" Margin="10" Click="Button_Click"/>
+                <Button x:Name="exitButton" Content="Exit" Padding="10" Margin="10" Click="Button_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

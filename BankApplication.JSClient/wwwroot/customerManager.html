@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel=" stylesheet" href="style.css" />
+    <title>Manage Customer Database</title>
+</head>
+<body>
+    <h1>Customer Catalog</h1>
+
+    <div id="customerCreatorDiv">
+        <label>Customer Name</label>
+        <input type="text" id="custName" />
+
+        <label>Year of Birth</label>
+        <input type="number" id="custYearOfBirth" />
+
+        <label>Customer XSell Score</label>
+        <input type="number" id="custXSell" />
+
+        <label>Average Income</label>
+        <input type="number" id="custAvgIncome" />
+
+        <label>Country</label>
+        <input type="text" id="custCountry" />
+
+        <button type="button" onclick="createCustomer()">Create Customer</button>
+    </div>
+
+    <div id="customerUpdateDiv">
+        <label>Customer Name</label>
+        <input type="text" id="custNameToUpdate" />
+
+        <label>Year of Birth</label>
+        <input type="number" id="custYearOfBirthToUpdate" />
+
+        <label>Customer XSell Score</label>
+        <input type="number" id="custXSellToUpdate" />
+
+        <label>Average Income</label>
+        <input type="number" id="custAvgIncomeToUpdate" />
+
+        <label>Country</label>
+        <input type="text" id="custCountryToUpdate" />
+
+        <button type="button" onclick="updateCustomer()">Update Customer</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cusotmer ID</th>
+                <th>Customer name</th>
+                <th>Year of birth</th>
+                <th>X-Sell Score</th>
+                <th>Average Income</th>
+                <th>Country</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="customerTable">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="customerManagerScript.js"></script>
+</body>
+</html>

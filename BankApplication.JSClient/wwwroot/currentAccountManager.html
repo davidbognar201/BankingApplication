@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel=" stylesheet" href="style.css" />
+    <title>Manage Current Account Database</title>
+</head>
+<body>
+    <h1>Current Account Catalog</h1>
+
+    <div id="currentAccountCreatorDiv">
+        <label>Account Number</label>
+        <input type="number" id="accountNum" />
+
+        <label>Account Balance</label>
+        <input type="number" id="accountBal" />
+
+        <label>Account Currency</label>
+        <input type="text" id="accountCurr" />
+
+        <button type="button" onclick="createCurrentAccount()">Create Current Account</button>
+    </div>
+
+    <div id="currentAccountUpdateDiv">
+        <label>Account Number</label>
+        <input type="number" id="accountNumToUpdate" />
+
+        <label>Account Balance</label>
+        <input type="number" id="accountBalToUpdate" />
+
+        <label>Account Currency</label>
+        <input type="text" id="accountCurrToUpdate" />
+
+        <button type="button" onclick="updateAccount()">Update Current Account</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Current Account ID</th>
+                <th>Account Number</th>
+                <th>Account Balance</th>
+                <th>Account Currency</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="currentAccountTable">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="currentAccountManagerScript.js"></script>
+</body>
+</html>

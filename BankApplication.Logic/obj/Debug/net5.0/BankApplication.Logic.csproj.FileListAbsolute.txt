@@ -1,0 +1,17 @@
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Logic.deps.json
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Logic.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Logic.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Models.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Repository.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Repository.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\bin\Debug\net5.0\BankApplication.Models.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.csproj.AssemblyReference.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.AssemblyInfoInputs.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.AssemblyInfo.cs
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.csproj.CoreCompileInputs.cache
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.csproj.CopyComplete
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\refint\BankApplication.Logic.dll
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\BankApplication.Logic.pdb
+C:\Repos\BankApplication\SZTGUI_HU2RRC_Feleves_beadando-master\BankApplication.Logic\obj\Debug\net5.0\ref\BankApplication.Logic.dll

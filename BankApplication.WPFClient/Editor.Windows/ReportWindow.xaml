@@ -1,0 +1,43 @@
+﻿<Window x:Class="BankApplication.WPFClient.Editor.Windows.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankApplication.WPFClient.VMs"
+        mc:Ignorable="d"
+        Title="ReportMainWindow" Height="550" Width="800">
+    <Window.DataContext>
+        <local:ReportMainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="1.5*"/>
+        <RowDefinition Height="10*"/>
+        <RowDefinition Height="1.5*"/>
+    </Grid.RowDefinitions>
+    <Label Grid.Row="0" Background="LightGreen"
+               FontSize="23" 
+               FontFamily="Corbel"
+               Content="Generate pre-defined reports" 
+               FontWeight="Bold" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center"/>
+    <Label Grid.Row="2" Background="LightGreen"/>
+
+    <Grid Grid.Row="1" x:Name="teszt">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="15">
+            <Button x:Name="currencyAggButton" Content="Get Cards Aggregated By Currency" Padding="10" Margin="10" Click="Button_Click"/>
+            <Button x:Name="countryAggButton" Content="Get Customers Aggregated By Country" Padding="10" Margin="10" Click="Button_Click"/>
+            <Button x:Name="minBalanceAggButton" Content="Get Customers Above Minimum Balance" Padding="10" Margin="10" Click="Button_Click"/>
+            <Button x:Name="cardCountryAggButton" Content="Get Cards Aggregated By Country" Padding="10" Margin="10" Click="Button_Click"/>
+            <Button x:Name="cardCntAggButton" Content="Get Customers Based On Their Card Amount" Padding="10" Margin="10" Click="Button_Click"/>
+            <Button x:Name="exitButton" Content="Back To Main Menu" Padding="10" Margin="10" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+    </Grid>
+</Window>
